@@ -1,0 +1,8 @@
+[package]
+name = "activation_func"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = { version = "0.16.1", features = ["serde"] }
+serde = { version = "1.0.209", features = ["derive"] }
